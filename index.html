@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhishek P Anil - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Abhishek P Anil</h1>
-            <p>Software Developer | Tech Enthusiast</p>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="container header-container">
+            <div class="profile-pic">
+                <img src="your-photo.jpg" alt="Abhishek P Anil">
+            </div>
+            <div class="header-text">
+                <h1>Abhishek P Anil</h1>
+                <p>Software Developer | Tech Enthusiast</p>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -29,24 +36,47 @@
         </div>
     </section>
 
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <p>University Name, Location</p>
+                <p>2020 - 2024</p>
+            </div>
+            <div class="education-item">
+                <h3>Harvard CS50: Introduction to Computer Science</h3>
+                <p>Harvard University (Online Course)</p>
+                <p>Completed in 2023</p>
+            </div>
+            <div class="education-item">
+                <h3>IBM SkillsBuild Program</h3>
+                <p>IBM (Online Course)</p>
+                <p>Completed in 2023</p>
+            </div>
+        </div>
+    </section>
+
     <section id="projects">
         <div class="container">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>CASHCROW</h3>
-                <p>An innovative waste management solution providing rewards for proper waste disposal through automatic sorting bins and a web application.</p>
-            </div>
-            <div class="project">
-                <h3>Personal Diary</h3>
-                <p>A secure diary application built using Django with a login system to protect user entries.</p>
-            </div>
-            <div class="project">
-                <h3>Automatic Waste Sorting Wastebin</h3>
-                <p>A project focused on automating waste sorting processes using AI.</p>
-            </div>
-            <div class="project">
-                <h3>AI-based Emotion Detection</h3>
-                <p>An AI-driven project to detect emotions from facial expressions.</p>
+            <div class="grid">
+                <div class="project">
+                    <h3>CASHCROW</h3>
+                    <p>An innovative waste management solution providing rewards for proper waste disposal through automatic sorting bins and a web application.</p>
+                </div>
+                <div class="project">
+                    <h3>Personal Diary</h3>
+                    <p>A secure diary application built using Django with a login system to protect user entries.</p>
+                </div>
+                <div class="project">
+                    <h3>Automatic Waste Sorting Wastebin</h3>
+                    <p>A project focused on automating waste sorting processes using AI.</p>
+                </div>
+                <div class="project">
+                    <h3>AI-based Emotion Detection</h3>
+                    <p>An AI-driven project to detect emotions from facial expressions.</p>
+                </div>
             </div>
         </div>
     </section>
